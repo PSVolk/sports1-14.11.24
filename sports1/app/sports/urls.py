@@ -23,4 +23,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
     path('<str:sport_name>', views.sport),
+    path('daytime/', views.daytime),
 ]
